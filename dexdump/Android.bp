@@ -26,6 +26,7 @@ cc_binary {
     cflags: [
         "-Wall",
         "-Werror",
+        "-O3",
     ],
     target: {
         android: {

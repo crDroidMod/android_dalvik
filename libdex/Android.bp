@@ -46,6 +46,7 @@ cc_library_static {
     cflags: [
         "-Wall",
         "-Werror",
+        "-O3",
     ],
     target: {
         android: {
