@@ -46,6 +46,7 @@ cc_library_static {
         "-Wall",
         "-Werror",
         "-Wimplicit-fallthrough",
+        "-O3",
     ],
     target: {
         windows: {
